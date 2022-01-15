@@ -20,6 +20,7 @@ function FindANumber(props) {
       setGameStatus(' Not Yet')
     } else if (number < superiorLimit) {
       setSuperiorLimit(number)
+      setNumberOfTries(numberOfTries + 1)
       setGameStatus(' Not Yet')
     } else {
       setGameStatus(' Not Yet')
